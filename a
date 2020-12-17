@@ -1,0 +1,23 @@
+$("#shoot").click(function(){
+let computerNumber = Math.floor((Math.random() * 3) + 1);
+if (computerNumber === 1)
+  $("#computerChoice").text("rock");
+  else (computerNumber === 2)
+    $("#computerChoice").text("paper");
+});
+
+$("#shoot").click(function(){
+  let computerNumber = document.getElementById("computerChoice")
+  computerNumber.innerHTML = Math.floor((Math.random() * 3) + 1);
+});
+
+$("#shoot").click(function(){
+let randomNumber = Math.floor((Math.random() * 3) + 1);
+  $("#computerChoice").text(randomNumber)
+    if (randomNumber === 1)
+      $("#computerChoice").text("Rock");
+      else if (randomNumber === 2)
+        $("#computerChoice").text("Paper");
+        else if (randomNumber === 3)
+          $("#computerChoice").text("Scissors");
+});
